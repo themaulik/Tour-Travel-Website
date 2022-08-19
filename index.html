@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tour & Travel - By Rohan Thummar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" type="image/x-icon" href="src/img/fav.png">
+</head>
+
+<body>
+    <!-- Nav Bar Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <h1>Travel</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booknow.html">Book Now
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex">
+                    <button class="btn btn-light ms-3"><a class="text-decoration-none text-dark" href="login.html">Login</a> </button>
+                    <button class="btn btn-light ms-3"><a class="text-decoration-none text-dark" href="register.html">Register</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Ends-->
+
+    <!-- Scroller Start -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/img/s-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Trip in Car</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eveniet.</p>
+                    <div class="slider-btn">
+                        <a class="btn btn-danger btn-lg fw-bold me-2" href="booknow.html">Book Trip</a>
+                        <button class="btn btn-warning btn-lg fw-bold ms-2">View Tour</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/img/s-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Find You Choice</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eveniet.</p>
+                    <div class="slider-btn">
+                        <a class="btn btn-danger btn-lg fw-bold me-2" href="booknow.html">Book Trip</a>
+                        <button class="btn btn-warning btn-lg fw-bold ms-2">View Tour</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/img/s-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Go Where You FIND Peace</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eveniet.</p>
+                    <div class="slider-btn">
+                        <a class="btn btn-danger btn-lg fw-bold me-2" href="booknow.html">Book Trip</a>
+                        <button class="btn btn-warning btn-lg fw-bold ms-2">View Tour</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Scroller Ends -->
+
+    <!-- Tour Section Start -->
+    <section class="my-5">
+        <div class="container">
+            <header>
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h1 class="display-4 fw-normal">Tour</h1>
+                    <hr>
+                    <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus esse dolore consequuntur illo praesentium blanditiis exercitationem quaerat? Laboriosam, asperiores est repellendus sequi pariatur debitis voluptatum nulla modi
+                        voluptas eligendi?
+                    </p>
+                </div>
+            </header>
+            <div class="row my-5">
+                <!-- Tour Card + Modal => 1 Start-->
+                <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                        <img src="src/img/t-1.jpg" class="card-img-top" alt="Card Image">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                            <p class="card-text mb-4">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Trip</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title w-100" id="exampleModalLabel">Book Trip Page</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="card-img">
+                                    <img class="product-img-model mx-auto d-block rounded shadow " src="./src/img/t-1.jpg" style="width: 400px; height: 264px;" alt="">
+                                </div> <br>
+                                <div class="product-card-details">
+                                    <h1 class="text-center">Lorem, ipsum.</h1>
+                                    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id accusantium expedita consequatur autem pariatur. Tenetur vitae quidem adipisci, voluptates repudiandae quis magni, accusamus iste amet saepe exercitationem
+                                        neque eos modi.</p>
+                                </div><br>
+                                <div class="text-center">
+                                    <a class="btn btn-danger fw-bold" href="booknow.html">BOOK NOW</a>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tour Card + Modal => 1 Ends-->
+
+                <!-- Tour Card + Modal => 2 Start-->
+                <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                    <div class="card shadow">
+                        <img src="src/img/t-2.jpg" class="card-img-top" alt="Card Image">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                            <p class="card-text mb-4">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Book Trip</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title w-100" id="exampleModalLabel">Book Trip Page</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="card-img">
+                                    <img class="product-img-model mx-auto d-block rounded shadow " src="./src/img/t-2.jpg" style="width: 400px; height: 264px;" alt="">
+                                </div> <br>
+                                <div class="product-card-details">
+                                    <h1 class="text-center">Lorem, ipsum.</h1>
+                                    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id accusantium expedita consequatur autem pariatur. Tenetur vitae quidem adipisci, voluptates repudiandae quis magni, accusamus iste amet saepe exercitationem
+                                        neque eos modi.</p>
+                                </div><br>
+                                <div class="text-center">
+                                    <a class="btn btn-danger fw-bold" href="booknow.html">BOOK NOW</a>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tour Card + Modal => 2 Ends-->
+
+                <!-- Tour Card + Modal => 3 Start-->
+                <div class="col-lg-4 mb-3 d-flex align-items-stretch ">
+                    <div class="card shadow">
+                        <img src="src/img/t-3.jpg" class="card-img-top" alt="Card Image">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Lorem Ipsum Dolor</h5>
+                            <p class="card-text mb-4">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">Book Trip</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title w-100" id="exampleModalLabel">Book Trip Page</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="card-img">
+                                    <img class="product-img-model mx-auto d-block rounded shadow " src="./src/img/t-3.jpg" style="width: 400px; height: 264px;" alt="">
+                                </div> <br>
+                                <div class="product-card-details">
+                                    <h1 class="text-center">Lorem, ipsum.</h1>
+                                    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id accusantium expedita consequatur autem pariatur. Tenetur vitae quidem adipisci, voluptates repudiandae quis magni, accusamus iste amet saepe exercitationem
+                                        neque eos modi.</p>
+                                </div><br>
+                                <div class="text-center">
+                                    <a class="btn btn-danger fw-bold" href="booknow.html">BOOK NOW</a>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tour Card + Modal => 3 Ends-->
+
+            </div>
+        </div>
+    </section>
+    <!-- Tour Section Ends -->
+    <hr>
+    <!-- Pricing Card Start -->
+    <div class="container py-3">
+        <header>
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal">Pricing</h1>
+                <hr>
+                <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto temporibus esse dolore consequuntur illo praesentium blanditiis exercitationem quaerat? Laboriosam, asperiores est repellendus sequi pariatur debitis voluptatum nulla modi
+                    voluptas eligendi?</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>1 People Only</li>
+                                <li>1/5 Day Stay</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$99<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>5 People + You</li>
+                                <li>3 Day Stay</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-white bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Ultra Pro Max</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$499<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 Member + You</li>
+                                <li>5 Day Stay</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Pricing Card Ends -->
+
+    <!-- Footer Started -->
+    <div class="bg-dark ">
+        <div class="container">
+            <footer class="py-3">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                    <li class="nav-item"><a href="About.html" class="nav-link px-2 text-muted">About Us</a></li>
+                </ul>
+                <p class="text-center text-muted">© 2022 Company, Inc</p>
+            </footer>
+        </div>
+    </div>
+    <!-- Footer Ends -->
+
+    <!-- Js Code -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="src/js/main.js"></script>
+</body>
+
+</html>
